@@ -7,6 +7,7 @@ public class ListMain {
         list.addTail(4);
         list.addTail(5);
         list.addTail(7);
+        // list.sort();
         System.out.println("List Element: ");
         list.displayElement();
     }
