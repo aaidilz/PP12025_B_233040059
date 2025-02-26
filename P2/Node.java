@@ -1,18 +1,18 @@
 package P2;
 
 public class Node {
-    private int nilai;
+    private double nilai;
     private Node next;
 
     // Inisialisasi Node
-    public Node(int nilai) {
+    public Node(double nilai) {
         this.nilai = nilai;
         this.next = null;
     }
 
     // Getter dan Setter
     
-    public int getNilai() {
+    public double getNilai() {
         return nilai;
     }
 
@@ -20,7 +20,7 @@ public class Node {
         return next;
     }
 
-    public void setNilai(int nilai) {
+    public void setNilai(double nilai) {
         this.nilai = nilai;
     }
 
